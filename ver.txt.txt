@@ -1,0 +1,16 @@
+Up & Down Expansion Pack Version History
+
+Up and Down Expansion Pack 3.x
+Code Name : Blue Ocean
+
+-------------------------------
+
+EP02 3.1.2
+- (Stable, DEV) 오류가 발생할경우 오류를 띄운후 메인으로 이동합니다. 
+- (Developer Mode, BETA) 시나리오 로드 기능이 추가되었습니다.
+EP02 3.2.0
+
+ - (Stable, Dev) 확장팩 설치방식이 변경되었습니다.
+EP02 3.1.0
+
+
