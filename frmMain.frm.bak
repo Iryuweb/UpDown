@@ -2,7 +2,7 @@ VERSION 5.00
 Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCTL.OCX"
 Object = "{248DD890-BB45-11CF-9ABC-0080C7E7B78D}#1.0#0"; "MSWINSCK.OCX"
 Begin VB.Form frmMain 
-   BorderStyle     =   1  '´ÜÀÏ °íÁ¤
+   BorderStyle     =   1  'ë‹¨ì¼ ê³ ì •
    Caption         =   "UpDown 3.1.2 , Name : Blue Ocean (EP2)"
    ClientHeight    =   2145
    ClientLeft      =   5070
@@ -29,7 +29,7 @@ Begin VB.Form frmMain
          Width           =   1935
       End
       Begin VB.CommandButton Command4 
-         Caption         =   "Àü¼Û"
+         Caption         =   "ì „ì†¡"
          Height          =   255
          Left            =   5640
          TabIndex        =   52
@@ -58,7 +58,7 @@ Begin VB.Form frmMain
          Width           =   2055
       End
       Begin VB.Label Label22 
-         Caption         =   "°ÔÀÓ »óÈ² : "
+         Caption         =   "ê²Œì„ ìƒí™© : "
          Height          =   255
          Left            =   360
          TabIndex        =   53
@@ -66,7 +66,7 @@ Begin VB.Form frmMain
          Width           =   2055
       End
       Begin VB.Label Label21 
-         Caption         =   "Ã¤ÆÃ : "
+         Caption         =   "ì±„íŒ… : "
          Height          =   255
          Left            =   2520
          TabIndex        =   50
@@ -74,7 +74,7 @@ Begin VB.Form frmMain
          Width           =   3735
       End
       Begin VB.Label Label20 
-         Caption         =   "Âü°¡ÀÚ ¸ñ·Ï:"
+         Caption         =   "ì°¸ê°€ì ëª©ë¡:"
          Height          =   255
          Left            =   360
          TabIndex        =   47
@@ -101,7 +101,7 @@ Begin VB.Form frmMain
       Appearance      =   1
    End
    Begin VB.CommandButton Command3 
-      Caption         =   "Á¤º¸"
+      Caption         =   "ì •ë³´"
       Height          =   375
       Left            =   4800
       TabIndex        =   28
@@ -110,7 +110,7 @@ Begin VB.Form frmMain
    End
    Begin VB.TextBox Text1 
       BeginProperty Font 
-         Name            =   "±¼¸²"
+         Name            =   "êµ´ë¦¼"
          Size            =   9.75
          Charset         =   129
          Weight          =   400
@@ -135,7 +135,7 @@ Begin VB.Form frmMain
       Width           =   1140
    End
    Begin VB.CommandButton Command22 
-      Caption         =   "³­ÀÌµµ º¯°æ(ºÎÈ°)"
+      Caption         =   "ë‚œì´ë„ ë³€ê²½(ë¶€í™œ)"
       Height          =   375
       Left            =   4800
       TabIndex        =   25
@@ -143,7 +143,7 @@ Begin VB.Form frmMain
       Width           =   1695
    End
    Begin VB.CommandButton Command21 
-      Caption         =   "¸¶ Áö ¸· ¸ñ¼û"
+      Caption         =   "ë§ˆ ì§€ ë§‰ ëª©ìˆ¨"
       Height          =   420
       Left            =   10260
       TabIndex        =   20
@@ -151,7 +151,7 @@ Begin VB.Form frmMain
       Width           =   3975
    End
    Begin VB.CommandButton Command20 
-      Caption         =   "¸ñ¼û"
+      Caption         =   "ëª©ìˆ¨"
       Height          =   555
       Left            =   12480
       TabIndex        =   19
@@ -159,7 +159,7 @@ Begin VB.Form frmMain
       Width           =   1005
    End
    Begin VB.CommandButton Command19 
-      Caption         =   "¸ñ¼û"
+      Caption         =   "ëª©ìˆ¨"
       Height          =   555
       Left            =   13080
       TabIndex        =   18
@@ -167,7 +167,7 @@ Begin VB.Form frmMain
       Width           =   1005
    End
    Begin VB.CommandButton Command18 
-      Caption         =   "¸ñ¼û"
+      Caption         =   "ëª©ìˆ¨"
       Height          =   555
       Left            =   13080
       TabIndex        =   17
@@ -175,7 +175,7 @@ Begin VB.Form frmMain
       Width           =   1005
    End
    Begin VB.CommandButton Command17 
-      Caption         =   "¸ñ¼û"
+      Caption         =   "ëª©ìˆ¨"
       Height          =   555
       Left            =   14070
       TabIndex        =   16
@@ -183,7 +183,7 @@ Begin VB.Form frmMain
       Width           =   1005
    End
    Begin VB.CommandButton Command16 
-      Caption         =   "¸ñ¼û"
+      Caption         =   "ëª©ìˆ¨"
       Height          =   555
       Left            =   11100
       TabIndex        =   15
@@ -191,7 +191,7 @@ Begin VB.Form frmMain
       Width           =   1005
    End
    Begin VB.CommandButton Command15 
-      Caption         =   "¸ñ¼û"
+      Caption         =   "ëª©ìˆ¨"
       Height          =   555
       Left            =   13200
       TabIndex        =   14
@@ -199,7 +199,7 @@ Begin VB.Form frmMain
       Width           =   1005
    End
    Begin VB.CommandButton Command14 
-      Caption         =   "¸ñ¼û"
+      Caption         =   "ëª©ìˆ¨"
       Height          =   555
       Left            =   13080
       TabIndex        =   13
@@ -207,7 +207,7 @@ Begin VB.Form frmMain
       Width           =   1005
    End
    Begin VB.CommandButton Command13 
-      Caption         =   "¸ñ¼û"
+      Caption         =   "ëª©ìˆ¨"
       Height          =   555
       Left            =   14070
       TabIndex        =   12
@@ -215,7 +215,7 @@ Begin VB.Form frmMain
       Width           =   1005
    End
    Begin VB.CommandButton Command12 
-      Caption         =   "¸ñ¼û"
+      Caption         =   "ëª©ìˆ¨"
       Height          =   555
       Left            =   11100
       TabIndex        =   11
@@ -223,7 +223,7 @@ Begin VB.Form frmMain
       Width           =   1005
    End
    Begin VB.CommandButton Command11 
-      Caption         =   "¸ñ¼û"
+      Caption         =   "ëª©ìˆ¨"
       Height          =   555
       Left            =   14160
       TabIndex        =   10
@@ -231,7 +231,7 @@ Begin VB.Form frmMain
       Width           =   1005
    End
    Begin VB.CommandButton Command10 
-      Caption         =   "¸ñ¼û"
+      Caption         =   "ëª©ìˆ¨"
       Height          =   555
       Left            =   13080
       TabIndex        =   9
@@ -239,7 +239,7 @@ Begin VB.Form frmMain
       Width           =   1005
    End
    Begin VB.CommandButton Command9 
-      Caption         =   "¸ñ¼û"
+      Caption         =   "ëª©ìˆ¨"
       Height          =   555
       Left            =   14070
       TabIndex        =   8
@@ -247,7 +247,7 @@ Begin VB.Form frmMain
       Width           =   1005
    End
    Begin VB.CommandButton Command8 
-      Caption         =   "¸ñ¼û"
+      Caption         =   "ëª©ìˆ¨"
       Height          =   555
       Left            =   11100
       TabIndex        =   7
@@ -255,7 +255,7 @@ Begin VB.Form frmMain
       Width           =   1005
    End
    Begin VB.CommandButton Command7 
-      Caption         =   "¸ñ¼û"
+      Caption         =   "ëª©ìˆ¨"
       Height          =   555
       Left            =   9240
       TabIndex        =   6
@@ -263,7 +263,7 @@ Begin VB.Form frmMain
       Width           =   1005
    End
    Begin VB.CommandButton Command6 
-      Caption         =   "¸ñ¼û"
+      Caption         =   "ëª©ìˆ¨"
       Height          =   555
       Left            =   14280
       TabIndex        =   5
@@ -271,7 +271,7 @@ Begin VB.Form frmMain
       Width           =   1005
    End
    Begin VB.CommandButton Command5 
-      Caption         =   "¸ñ¼û"
+      Caption         =   "ëª©ìˆ¨"
       Height          =   555
       Left            =   11100
       TabIndex        =   4
@@ -279,7 +279,7 @@ Begin VB.Form frmMain
       Width           =   1005
    End
    Begin VB.CommandButton Command2 
-      Caption         =   "´Ù½ÃÇÏ±â"
+      Caption         =   "ë‹¤ì‹œí•˜ê¸°"
       Height          =   375
       Left            =   4800
       TabIndex        =   3
@@ -287,7 +287,7 @@ Begin VB.Form frmMain
       Width           =   1695
    End
    Begin VB.CommandButton Command1 
-      Caption         =   "È®ÀÎ"
+      Caption         =   "í™•ì¸"
       Height          =   255
       Left            =   3600
       TabIndex        =   2
@@ -302,7 +302,7 @@ Begin VB.Form frmMain
       Width           =   3375
    End
    Begin VB.Frame Frame2 
-      Caption         =   "¹Ì»ç¿ë"
+      Caption         =   "ë¯¸ì‚¬ìš©"
       Height          =   3495
       Left            =   10440
       TabIndex        =   39
@@ -325,7 +325,7 @@ Begin VB.Form frmMain
       Width           =   4455
    End
    Begin VB.Label Label18 
-      Caption         =   "¸ÖÆ¼ÇÃ È°¼ºÈ­ :"
+      Caption         =   "ë©€í‹°í”Œ í™œì„±í™” :"
       Height          =   255
       Left            =   8280
       TabIndex        =   45
@@ -341,7 +341,7 @@ Begin VB.Form frmMain
       Width           =   4455
    End
    Begin VB.Label Label16 
-      Caption         =   "½Ã³ª¸®¿À ´Ü°è : "
+      Caption         =   "ì‹œë‚˜ë¦¬ì˜¤ ë‹¨ê³„ : "
       Height          =   255
       Left            =   8280
       TabIndex        =   42
@@ -357,7 +357,7 @@ Begin VB.Form frmMain
       Width           =   4455
    End
    Begin VB.Label Label14 
-      Caption         =   "½Ã³ª¸®¿À ¸ñÇ¥ : "
+      Caption         =   "ì‹œë‚˜ë¦¬ì˜¤ ëª©í‘œ : "
       Height          =   375
       Left            =   8280
       TabIndex        =   40
@@ -365,7 +365,7 @@ Begin VB.Form frmMain
       Width           =   1455
    End
    Begin VB.Label Label13 
-      Caption         =   "ÃÊ±â ¸ñ¼û : "
+      Caption         =   "ì´ˆê¸° ëª©ìˆ¨ : "
       Height          =   495
       Left            =   8280
       TabIndex        =   38
@@ -381,7 +381,7 @@ Begin VB.Form frmMain
       Width           =   3855
    End
    Begin VB.Label Label12 
-      Caption         =   "Á¤´ä : "
+      Caption         =   "ì •ë‹µ : "
       Height          =   255
       Left            =   8280
       TabIndex        =   37
@@ -389,7 +389,7 @@ Begin VB.Form frmMain
       Width           =   615
    End
    Begin VB.Label Label11 
-      Caption         =   "¹üÀ§ : "
+      Caption         =   "ë²”ìœ„ : "
       Height          =   255
       Left            =   8280
       TabIndex        =   36
@@ -413,7 +413,7 @@ Begin VB.Form frmMain
       Width           =   1095
    End
    Begin VB.Label Label8 
-      Caption         =   "¸ÂÃá È½¼ö : "
+      Caption         =   "ë§ì¶˜ íšŸìˆ˜ : "
       Height          =   255
       Left            =   120
       TabIndex        =   33
@@ -429,7 +429,7 @@ Begin VB.Form frmMain
       Width           =   2775
    End
    Begin VB.Label Label5 
-      Caption         =   "ÇöÀç ½Ã°£ : "
+      Caption         =   "í˜„ì¬ ì‹œê°„ : "
       Height          =   255
       Left            =   8280
       TabIndex        =   30
@@ -452,9 +452,9 @@ Begin VB.Form frmMain
       Width           =   1575
    End
    Begin VB.Label Label2 
-      Caption         =   "¸ñ¼û °¹¼ö:"
+      Caption         =   "ëª©ìˆ¨ ê°¯ìˆ˜:"
       BeginProperty Font 
-         Name            =   "±¼¸²"
+         Name            =   "êµ´ë¦¼"
          Size            =   9.75
          Charset         =   129
          Weight          =   400
@@ -493,41 +493,41 @@ Attribute VB_Exposed = False
 Public Sub CheckLifeChar()
     Dim Life As Integer
         Life = Life - 1
-        If Err.Description = "Çü½ÄÀÌ ÀÏÄ¡ÇÏÁö ¾Ê½À´Ï´Ù." Then
-            MsgBox "»ı¸í °¹¼ö¸¦ ¼ıÀÚ·Î ÀÔ·ÂÇÏ½Ê½Ã¿À.", vbCritical
+        If Err.Description = "í˜•ì‹ì´ ì¼ì¹˜í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤." Then
+            MsgBox "ìƒëª… ê°¯ìˆ˜ë¥¼ ìˆ«ìë¡œ ì…ë ¥í•˜ì‹­ì‹œì˜¤.", vbCritical
             Unload Me
             Form1.Show
         End If
 End Sub
 Public Sub answerchk()
     If D.Text = "terribleterribledamage" Then
-            MsgBox "¸ñ¼û ¹«ÇÑÀÌµÇ¾ú½À´Ï´Ù."
+            MsgBox "ëª©ìˆ¨ ë¬´í•œì´ë˜ì—ˆìŠµë‹ˆë‹¤."
             Text1.Text = "1E+25"
     ElseIf D.Text = "add" Then
             Text1.Text = Text1.Text + 1
     ElseIf D.Text = "Exit" Then
             End
     ElseIf D.Text = "DEVMODE!@#$%^&*" Then
-            MsgBox "°³¹ßÀÚ ¸ğµå·Î ½ÇÇàÇÕ´Ï´Ù.", vbExclamation
+            MsgBox "ê°œë°œì ëª¨ë“œë¡œ ì‹¤í–‰í•©ë‹ˆë‹¤.", vbExclamation
             frmLogin.Show
     ElseIf D.Text = "Pass" Then
             Pass
     ElseIf D.Text = "View" Then
             View
     ElseIf D.Text = "End" Then
-            MsgBox "Á¾·áÇÕ´Ï´Ù."
+            MsgBox "ì¢…ë£Œí•©ë‹ˆë‹¤."
             End
     ElseIf Val(D.Text) > Val(labe.Caption) Then
-            MsgBox " ´Ù¿î ", vbCritical
+            MsgBox " ë‹¤ìš´ ", vbCritical
             Text1.Text = Text1.Text - 1
     ElseIf Val(D.Text) < Val(labe.Caption) Then
-            MsgBox " ¾÷ ", vbCritical
+            MsgBox " ì—… ", vbCritical
     
    
             Text1.Text = Text1.Text - 1
     Else
         If 100 > Val(ProgressBar1.Value) Then
-            MsgBox " À¸¾Æ ¸ÂÃß´Ù´Ï.. ÃÂ ´ÙÀ½¹®Á¦! ", vbInformation
+            MsgBox " ìœ¼ì•„ ë§ì¶”ë‹¤ë‹ˆ.. ì³‡ ë‹¤ìŒë¬¸ì œ! ", vbInformation
             Text1.Text = Text1.Text + 1
             Randomize
             labe.Caption = Int(Rnd * Label7.Caption) + 1
@@ -546,20 +546,20 @@ Private Sub Command1_Click()
     ElseIf Label19.Caption = "0" Then
         answerchk
     Else
-        MsgBox "Ã·ÀÚ ¿À·ù. Á¾·áÇÕ´Ï´Ù.", vbCritical
+        MsgBox "ì²¨ì ì˜¤ë¥˜. ì¢…ë£Œí•©ë‹ˆë‹¤.", vbCritical
         End
     End If
 End Sub
 Public Sub Manswerchk()
     If Val(D.Text) > Val(labe.Caption) Then
-            MsgBox " ´Ù¿î ", vbCritical
+            MsgBox " ë‹¤ìš´ ", vbCritical
             Text1.Text = Text1.Text - 1
     ElseIf Val(D.Text) < Val(labe.Caption) Then
-            MsgBox " ¾÷ ", vbCritical
+            MsgBox " ì—… ", vbCritical
             Text1.Text = Text1.Text - 1
     Else
         If 100 > Val(ProgressBar1.Value) Then
-            MsgBox " À¸¾Æ ¸ÂÃß´Ù´Ï.. ÃÂ ´ÙÀ½¹®Á¦! ", vbInformation
+            MsgBox " ìœ¼ì•„ ë§ì¶”ë‹¤ë‹ˆ.. ì³‡ ë‹¤ìŒë¬¸ì œ! ", vbInformation
             Text1.Text = Text1.Text + 1
             Randomize
             labe.Caption = Int(Rnd * Label7.Caption) + 1
@@ -615,7 +615,7 @@ End Sub
 
 
 Private Sub Command2_Click()
-    MsgBox "Æ÷±âÇß½À´Ï´Ù! Á¤´ä : " & labe.Caption
+    MsgBox "í¬ê¸°í–ˆìŠµë‹ˆë‹¤! ì •ë‹µ : " & labe.Caption
     Randomize
     labe.Caption = Int(Rnd * Label7.Caption) + 1
     Text1.Text = Text1.Text
@@ -630,7 +630,7 @@ End Sub
 
 Private Sub Command21_Click()
     Command21.Enabled = False
-    MsgBox "¤¹¤¹ ¸ø¸ÂÃß´Ù´Ï"""
+    MsgBox "ã…‰ã…‰ ëª»ë§ì¶”ë‹¤ë‹ˆ"""
     Command5.Enabled = True
     Command6.Enabled = True
     Command18.Enabled = True
@@ -652,18 +652,18 @@ Private Sub Command21_Click()
 End Sub
 
 Private Sub Command22_Click()
-    MsgBox "³Ê¹« ¾î·Á¿î °¡º­? ¤»¤»", vbInformation
+    MsgBox "ë„ˆë¬´ ì–´ë ¤ìš´ ê°€ë²¼? ã…‹ã…‹", vbInformation
     Unload Me
     Form1.Show
     Me.Height = 2070
 End Sub
 
 Public Sub View()
-    MsgBox "Á¤´äÀº : " & labe.Caption
+    MsgBox "ì •ë‹µì€ : " & labe.Caption
 End Sub
 
 Public Sub Pass()
-    MsgBox "´ÙÀ½ ¹®Á¦·Î ³Ñ¾î°¬½À´Ï´Ù."
+    MsgBox "ë‹¤ìŒ ë¬¸ì œë¡œ ë„˜ì–´ê°”ìŠµë‹ˆë‹¤."
     Randomize
     labe.Caption = Int(Rnd * Label7.Caption) + 1
     Form2.Label2.Caption = Me.labe.Caption
@@ -716,7 +716,7 @@ End Sub
 
 Private Sub D_Change()
     If Text1.Text = "0" Then
-        MsgBox "¸ñ¼ûÀÌ¾ø½À´Ï´Ù. ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.", vbCritical
+        MsgBox "ëª©ìˆ¨ì´ì—†ìŠµë‹ˆë‹¤. í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.", vbCritical
         End
     End If
 End Sub
@@ -726,12 +726,12 @@ Private Sub D_Click()
 End Sub
 
 Private Sub Form_Load()
-    If Err.Description = "Çü½ÄÀÌ ÀÏÄ¡ÇÏÁö ¾Ê½À´Ï´Ù." Then
-        MsgBox "¿À·ù Á¾·áÇÕ´Ï´Ù."
+    If Err.Description = "í˜•ì‹ì´ ì¼ì¹˜í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤." Then
+        MsgBox "ì˜¤ë¥˜ ì¢…ë£Œí•©ë‹ˆë‹¤."
         End
     Else
         CheckLifeChar
-        Label5.Caption = "À§Ä¡ : " & App.Path & "\" & App.EXEName & ".exe"
+        Label5.Caption = "ìœ„ì¹˜ : " & App.Path & "\" & App.EXEName & ".exe"
         Text1.Locked = True
         Text1.Text = Form1.Label8.Caption
         Randomize
